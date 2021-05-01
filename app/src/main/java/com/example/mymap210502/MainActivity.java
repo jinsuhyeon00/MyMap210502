@@ -600,7 +600,7 @@ public class MainActivity extends AppCompatActivity
 
         new NRPlaces.Builder()
                 .listener(MainActivity.this)
-                .key("AIzaSyAR_oXdlNkt6J1lW8Oa-8nJ8gQXBrI2Cpw")
+                .key("AIzaSyAE5xghGQD7y9JPKP-jTphBD8rLW5s79BA")
                 .latlng(location.latitude, location.longitude)//현재 위치
                 .radius(5000) //5000 미터 내에서 검색
                 .type(PlaceType.PARK) //공원
